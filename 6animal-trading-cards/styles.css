@@ -1,14 +1,22 @@
 /* add your CSS here */
 body {
   width: 300px;
-  border: 1px solid lightgray;
+  border: 1px solid rgba(103, 112, 5, 1);
   margin: 10px;
   padding: 0px 10px;
-  box-shadow: 5px 5px 20px 0px rgba(204,204,204,1);
+  box-shadow: 5px 5px 20px 0px rgba(204, 204, 204, 1);
 }
 
 .container {
   left: : 20px;
+  background-color: rgba(119, 147, 178, 0.2);
+}
+
+h3 {
+  color: rgba(10, 21, 255, 1);
+  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 img {
@@ -30,8 +38,8 @@ ul{
 }
 
 .box {
-  border: 1px solid lightgray;
+  border: 1px solid rgba(103, 112, 5, 1);
   padding: 0px 10px;
   margin: 10px 0px;
+  color: rgba(10, 21, 255, 1);
 }
-border around the animal's name, image, and information
