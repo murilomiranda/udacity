@@ -1,1 +1,37 @@
 /* add your CSS here */
+body {
+  width: 300px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  padding: 0px 10px;
+  box-shadow: 5px 5px 20px 0px rgba(204,204,204,1);
+}
+
+.container {
+  left: : 20px;
+}
+
+img {
+  width: 300px;
+  margin: 10px 0px;
+}
+
+.emphasis {
+  font-style:italic;
+}
+
+span {
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.box {
+  border: 1px solid lightgray;
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+border around the animal's name, image, and information
