@@ -70,18 +70,36 @@
       }
 
       @media screen and (min-width: 450px) {
-        .light_blue, .green {
+        .light_blue {
           width: 50%;
+          order: 0;
         }
+        .green {
+          width: 50%;
+          order: 1;
+        }
+        .dark_blue{order: 2;}
+        .red{order: 3;}
+        .orange{order: 4;}
       }
 
       @media screen and (min-width: 550px) {
+        .dark_blue{order:0}
         .red{
           width: 33.3333%;
+          order: 1;
         }
-
         .orange{
           width: 66.6666%;
+          order:2;
+        }
+        .light_blue {
+          width: 50%;
+          order: 3;
+        }
+        .green {
+          width: 50%;
+          order: 4;
         }
       }
 
