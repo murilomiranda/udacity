@@ -377,10 +377,7 @@ footer a {
 }
 
 @media screen and (min-width:600px){
-  .scores{
-    width: 50%;
-  }
-  .weather{
+  .scores, .weather{
     width: 50%;
   }
 }
