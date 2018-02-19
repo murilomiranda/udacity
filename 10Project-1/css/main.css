@@ -1,29 +1,29 @@
-/*
-
-Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
-
 body {
-
+ width: 1000px;
 }
 
 article {
-
+  width: 1000px;
 }
 
 h1 {
-
+  text-align: center;
 }
 
 img {
-
+  max-width: 100%;
 }
+
+a {
+    float:left;
+    display:block;
+}
+
+/* .icon {
+width:25px;
+height:25px;
+display:block;
+text-indent:-9999px;
+background-image:url(http://tridentdesign.com/wp-content/uploads/2012/12/gemicon.jpg);
+background-repeat:no-repeat;
+} */
