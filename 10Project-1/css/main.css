@@ -1,29 +1,105 @@
-body {
- width: 1000px;
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+a {
+  color: #4183C4;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bb021e;
+  font-weight: 800;
+}
+
+a#viewSource {
+  border-top: 1px solid #ddd;
+  display: block;
+  margin: 1.3em 0 0 0;
+  padding: 1em 0 0 0;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+div#social {
+  line-height: 2em;
 }
 
 article {
-  width: 1000px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+  border-bottom: 1px solid #ddd;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Mukta Mahee', sans-serif;
+  margin: 3vh 0 3vh 0;
+  text-align: center;
+}
+
+figcaption {
+  color: #bb021e;
+  font-family: 'Mukta Mahee', sans-serif;
+  padding: 1em 0;
+  text-align: center;
+}
+
+figure {
+  margin: 1em 0 1em 0;
+}
+
+footer {
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
+  color: #3d85c6;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 7vw;
+  font-weight: 600;
+  margin: 0 0 1em 0;
+}
+
+header:hover h1 {
+  color: #bb021e;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  color: #3d85c6;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 6vw;
+  margin: 0 0 1em 0;
+  padding: 0 0 1em 0;
 }
 
 img {
   max-width: 100%;
 }
 
-a {
-    float:left;
-    display:block;
+p {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.6em;
+  margin: 0 auto 1em auto;
+  text-align: justify;
 }
-
-/* .icon {
-width:25px;
-height:25px;
-display:block;
-text-indent:-9999px;
-background-image:url(http://tridentdesign.com/wp-content/uploads/2012/12/gemicon.jpg);
-background-repeat:no-repeat;
-} */
