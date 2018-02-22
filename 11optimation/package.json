@@ -1,0 +1,12 @@
+{
+  "name": "responsive images",
+  "version": "0.0.1",
+  "author": "Murilo Miranda",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^1.10.1"
+  }
+}
