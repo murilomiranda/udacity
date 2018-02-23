@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,31 +9,133 @@
     <meta name="author" content="Murilo Miranda Nüßlein">
     <title>Murilo's Portfolio</title>
 
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
   </head>
 
-  <!-- 1. at least 4 images
-       2. title text (h1, h2, etc.)
-       3. regular (paragraph) text
-       4. a logo. -->
   <body>
     <div class="container">
       <header>
-        <img src="img/logo.png" alt="white and blue 3D-MM logo">
-        <h1>Murilo Miranda</h1>
-        <h4>Front-end Ninja</h4>
+        <div class="header_inner">
+          <img class="header_logo" src="img/logo-800_large_1x.png" srcset="img/logo-1600_large_2x.png 2x" alt="white and blue 3D-MM logo">
+          <div class="header_title">
+            <h1 class="header_name">Murilo Miranda</h1>
+            <h2 class="header_job">Front-end Ninja</h2>
+          </div>
+        </div>
       </header>
 
 
-      <section id="main_image">
-      </section>
+      <div id="main_image">
+        <picture>
+          <source media="(min-width: 900px)" srcset="img/main_image-1600_large_2x.jpeg 2x, img/main_image-800_large_1x.jpeg">
+          <source media="(min-width: 600px)" srcset="img/main_image-large.jpeg">
+          <img src="img/main_image-small.jpeg" alt="Notebook, iPad and phones on the office desk">
+        </picture>
+      </div>
 
       <section id="featured_work">
         <h2>Featured work</h2>
+        <div class="works">
+          <div class="img_work">
+            <a href="#">
+              <picture>
+                <source media="(min-width: 900px)" srcset="img/animal_cards-1600_large_2x.jpg 2x, img/animal_cards-800_large_1x.jpg">
+                <source media="(min-width: 600px)" srcset="img/animal_cards-large.jpg">
+                <img src="img/animal_cards-small.jpg" alt="Card with two red-footed tortoises">
+              </picture>
+            </a>
+            <h3>Animal Trading Cards</h3>
+          </div>
+          <div class="img_work">
+            <a href="#">
+              <picture>
+                <source media="(min-width: 900px)" srcset="img/portfolio-1600_large_2x.jpg 2x, img/portfolio-800_large_1x.jpg">
+                <source media="(min-width: 600px)" srcset="img/portfolio-large.jpg">
+                <img src="img/portfolio-small.jpg" alt="Notebook, Tablet and phones on the office desk">
+              </picture>
+            </a>
+            <h3>Build a Portfolio</h3>
+          </div>
+        </div>
+        <h2>Future projects</h2>
+        <div class="works">
+          <div class="img_work">
+            <a href="#">
+              <picture>
+                <source media="(min-width: 900px)" srcset="img/under_construction-1600_large_2x.jpeg 2x, img/under_construction-800_large_1x.jpeg">
+                <source media="(min-width: 600px)" srcset="img/under_construction-large.jpeg">
+                <img src="img/under_construction-small.jpeg" alt="warning: under construction projec">
+              </picture>
+            </a>
+            <h3>Memory Game</h3>
+          </div>
+          <div class="img_work">
+            <a href="#">
+              <picture>
+                <source media="(min-width: 900px)" srcset="img/under_construction-1600_large_2x.jpeg 2x, img/under_construction-800_large_1x.jpeg">
+                <source media="(min-width: 600px)" srcset="img/under_construction-large.jpeg">
+                <img src="img/under_construction-small.jpeg" alt="warning: under construction projec">
+              </picture>
+            </a>
+            <h3>Classic Arcade Game Clone</h3>
+          </div>
+          <div class="img_work">
+            <a href="#">
+              <picture>
+                <source media="(min-width: 900px)" srcset="img/under_construction-1600_large_2x.jpeg 2x, img/under_construction-800_large_1x.jpeg">
+                <source media="(min-width: 600px)" srcset="img/under_construction-large.jpeg">
+                <img src="img/under_construction-small.jpeg" alt="warning: under construction projec">
+              </picture>
+            </a>
+            <h3>Feed Reader Testing</h3>
+          </div>
+          <div class="img_work">
+            <a href="#">
+              <picture>
+                <source media="(min-width: 900px)" srcset="img/under_construction-1600_large_2x.jpeg 2x, img/under_construction-800_large_1x.jpeg">
+                <source media="(min-width: 600px)" srcset="img/under_construction-large.jpeg">
+                <img src="img/under_construction-small.jpeg" alt="warning: under construction projec">
+              </picture>
+            </a>
+            <h3>Restaurant Reviews App</h3>
+          </div>
+          <div class="img_work">
+            <a href="#">
+              <picture>
+                <source media="(min-width: 900px)" srcset="img/under_construction-1600_large_2x.jpeg 2x, img/under_construction-800_large_1x.jpeg">
+                <source media="(min-width: 600px)" srcset="img/under_construction-large.jpeg">
+                <img src="img/under_construction-small.jpeg" alt="warning: under construction projec">
+              </picture>
+            </a>
+            <h3>MyReads: A Book Tracking App</h3>
+          </div>
+          <div class="img_work">
+            <a href="#">
+              <picture>
+                <source media="(min-width: 900px)" srcset="img/under_construction-1600_large_2x.jpeg 2x, img/under_construction-800_large_1x.jpeg">
+                <source media="(min-width: 600px)" srcset="img/under_construction-large.jpeg">
+                <img src="img/under_construction-small.jpeg" alt="warning: under construction projec">
+              </picture>
+            </a>
+            <h3>Neighborhood Map</h3>
+          </div>
+        </div>
       </section>
 
       <footer>
+        <div id="fontawesome">
+          <a href="https://www.facebook.com/murilomirandan" target="_blank" class="fontawesome-facebook-sign">Facebook</a>
+          <a href="https://github.com/murilomiranda" target="_blank" class="fontawesome-github">GitHub</a>
+          <a href="https://www.linkedin.com/in/murilo-miranda-nuesslein" target="_blank" class="fontawesome-linkedin">LinkedIn</a>
+        </div>
 
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator" target="_blank">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"alt="Valid CSS!">
+          </a>
+        </p>
       </footer>
     </div>
   </body>
